@@ -17,3 +17,75 @@
 
 LOCAL_PATH := $(call my-dir)
 
+ifeq ($(BOARD_VENDOR),samsung)
+ifneq ($(filter a5lte, $(TARGET_DEVICE)),)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := keystore.qcom
+LOCAL_MODULE_OWNER := samsung
+LOCAL_SRC_FILES := proprietary/vendor/lib/hw/keystore.qcom.so
+LOCAL_MULTILIB := 32
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MODULE_SUFFIX := .so
+LOCAL_VENDOR_MODULE := true
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := libloc_api_v02
+LOCAL_MODULE_OWNER := samsung
+LOCAL_SRC_FILES := proprietary/vendor/lib/libloc_api_v02.so
+LOCAL_MULTILIB := 32
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MODULE_SUFFIX := .so
+LOCAL_VENDOR_MODULE := true
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := libloc_ds_api
+LOCAL_MODULE_OWNER := samsung
+LOCAL_SRC_FILES := proprietary/vendor/lib/libloc_ds_api.so
+LOCAL_MULTILIB := 32
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MODULE_SUFFIX := .so
+LOCAL_VENDOR_MODULE := true
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := libtime_genoff
+LOCAL_MODULE_OWNER := samsung
+LOCAL_SRC_FILES := proprietary/vendor/lib/libtime_genoff.so
+LOCAL_MULTILIB := 32
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MODULE_SUFFIX := .so
+LOCAL_VENDOR_MODULE := true
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := TimeService
+LOCAL_MODULE_OWNER := samsung
+LOCAL_SRC_FILES := proprietary/vendor/app/TimeService/TimeService.apk
+LOCAL_CERTIFICATE := platform
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := APPS
+LOCAL_DEX_PREOPT := false
+LOCAL_MODULE_SUFFIX := .apk
+LOCAL_VENDOR_MODULE := true
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := libaudioalsa
+LOCAL_MODULE_OWNER := samsung
+LOCAL_SRC_FILES := proprietary/vendor/lib/libaudioalsa.so
+LOCAL_MULTILIB := 32
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MODULE_SUFFIX := .so
+LOCAL_PROPRIETARY_MODULE := true
+include $(BUILD_PREBUILT)
+
+endif
+endif
