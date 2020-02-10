@@ -25,7 +25,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a5lte/proprietary/vendor/lib/libsecnativefeature.so:/system/vendor/lib/libsecnativefeature.so \
     vendor/samsung/a5lte/proprietary/vendor/etc/nfc/sec_s3fwrn5_rfreg.bin:/system/vendor/etc/nfc/sec_s3fwrn5_rfreg.bin \
     vendor/samsung/a5lte/proprietary/vendor/firmware/nfc/sec_s3fwrn5_firmware.bin:/system/vendor/firmware/nfc/sec_s3fwrn5_firmware.bin \
-    vendor/samsung/a5lte/proprietary/vendor/lib/hw/audio_amplifier.msm8916.so:system/vendor/lib/hw/audio_amplifier.msm8916.so \
     vendor/samsung/a5lte/proprietary/vendor/lib/libtfa9895.so:system/lib/libtfa9895.so \
     vendor/samsung/a5lte/proprietary/vendor/lib/libsec-ril.so:system/vendor/lib/libsec-ril.so \
     vendor/samsung/a5lte/proprietary/vendor/lib/libsec-ril-dsds.so:system/vendor/lib/libsec-ril-dsds.so
