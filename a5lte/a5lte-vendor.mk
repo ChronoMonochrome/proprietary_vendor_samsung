@@ -230,8 +230,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a5lte/proprietary/vendor/lib/librs_adreno_sha1.so:system/vendor/lib/librs_adreno_sha1.so \
     vendor/samsung/a5lte/proprietary/vendor/lib/libsc-a3xx.so:system/vendor/lib/libsc-a3xx.so \
     vendor/samsung/a5lte/proprietary/vendor/lib/libscale.so:system/vendor/lib/libscale.so \
-    vendor/samsung/a5lte/proprietary/vendor/lib/libsec-ril.so:system/vendor/lib/libsec-ril.so \
-    vendor/samsung/a5lte/proprietary/vendor/lib/libsec-ril-dsds.so:system/vendor/lib/libsec-ril-dsds.so \
     vendor/samsung/a5lte/proprietary/vendor/lib/libssd.so:system/vendor/lib/libssd.so \
     vendor/samsung/a5lte/proprietary/vendor/lib/libstlport.so:system/vendor/lib/libstlport.so \
     vendor/samsung/a5lte/proprietary/vendor/lib/libthermalclient.so:system/vendor/lib/libthermalclient.so \
