@@ -22,13 +22,13 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a5lte/proprietary/vendor/lib/hw/vendor.samsung.hardware.nfc@1.0-impl.so:/system/vendor/lib/hw/vendor.samsung.hardware.nfc@1.0-impl.so \
     vendor/samsung/a5lte/proprietary/vendor/lib/vendor.samsung.hardware.nfc@1.0.so:/system/vendor/lib/vendor.samsung.hardware.nfc@1.0.so \
     vendor/samsung/a5lte/proprietary/vendor/lib/libalgobsx.so:/system/vendor/lib/libalgobsx.so \
-    vendor/samsung/a5lte/proprietary/vendor/lib/libsecnativefeature.so:/system/vendor/lib/libsecnativefeature.so \
     vendor/samsung/a5lte/proprietary/vendor/etc/nfc/sec_s3fwrn5_rfreg.bin:/system/vendor/etc/nfc/sec_s3fwrn5_rfreg.bin \
     vendor/samsung/a5lte/proprietary/vendor/firmware/nfc/sec_s3fwrn5_firmware.bin:/system/vendor/firmware/nfc/sec_s3fwrn5_firmware.bin \
     vendor/samsung/a5lte/proprietary/vendor/lib/libtfa9895.so:system/lib/libtfa9895.so \
     vendor/samsung/a5lte/proprietary/vendor/lib/libsec-ril.so:system/vendor/lib/libsec-ril.so \
     vendor/samsung/a5lte/proprietary/vendor/lib/libsec-ril-dsds.so:system/vendor/lib/libsec-ril-dsds.so
 
+#    vendor/samsung/a5lte/proprietary/vendor/lib/libsecnativefeature.so:/system/vendor/lib/libsecnativefeature.so \
 # A500XX Camera blobs
 PRODUCT_COPY_FILES += \
     vendor/samsung/a5lte/proprietary/vendor/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
@@ -153,7 +153,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a5lte/proprietary/vendor/firmware/venus.mbn:system/vendor/firmware/venus.mbn \
     vendor/samsung/a5lte/proprietary/vendor/firmware/venus.mdt:system/vendor/firmware/venus.mdt \
     vendor/samsung/a5lte/proprietary/vendor/bin/perfd:system/vendor/bin/perfd \
-    vendor/samsung/a5lte/proprietary/vendor/bin/thermal-engine:system/vendor/bin/thermal-engine \
     vendor/samsung/a5lte/proprietary/vendor/lib/egl/eglSubDriverAndroid.so:system/vendor/lib/egl/eglSubDriverAndroid.so \
     vendor/samsung/a5lte/proprietary/vendor/lib/egl/eglsubAndroid.so:system/vendor/lib/egl/eglsubAndroid.so \
     vendor/samsung/a5lte/proprietary/vendor/lib/egl/libEGL_adreno.so:system/vendor/lib/egl/libEGL_adreno.so \
