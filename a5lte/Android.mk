@@ -21,17 +21,6 @@ ifeq ($(BOARD_VENDOR),samsung)
 ifneq ($(filter a5lte, $(TARGET_DEVICE)),)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := keystore.qcom
-LOCAL_MODULE_OWNER := samsung
-LOCAL_SRC_FILES := proprietary/vendor/lib/hw/keystore.qcom.so
-LOCAL_MULTILIB := 32
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := SHARED_LIBRARIES
-LOCAL_MODULE_SUFFIX := .so
-LOCAL_VENDOR_MODULE := true
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
 LOCAL_MODULE := libloc_api_v02
 LOCAL_MODULE_OWNER := samsung
 LOCAL_SRC_FILES := proprietary/vendor/lib/libloc_api_v02.so
