@@ -26,7 +26,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a5lte/proprietary/vendor/lib/libactuator_dw9804_a7_camera.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_dw9804_a7_camera.so \
     vendor/samsung/a5lte/proprietary/vendor/lib/libjpegdhw.so:$(TARGET_COPY_OUT_VENDOR)/lib/libjpegdhw.so \
     vendor/samsung/a5lte/proprietary/vendor/lib/libjpegehw.so:$(TARGET_COPY_OUT_VENDOR)/lib/libjpegehw.so \
-    vendor/samsung/a5lte/proprietary/vendor/lib/libsecjpeginterface.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libsecjpeginterface.so \
     vendor/samsung/a5lte/proprietary/vendor/lib/libmmcamera2_c2d_module.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera2_c2d_module.so \
     vendor/samsung/a5lte/proprietary/vendor/lib/libmmcamera2_cpp_module.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera2_cpp_module.so \
     vendor/samsung/a5lte/proprietary/vendor/lib/libmmcamera2_frame_algorithm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera2_frame_algorithm.so \
